@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="135" started-at="2020-07-28T07:56:00Z" finished-at="2020-07-28T07:56:00Z">
+    <groups>
+      <group name="smoke">
+        <method signature="day2.ploan()[pri:0, instance:practice.day2@7823a2f9]" name="ploan" class="practice.day2"/>
+        <method signature="day4.MobileloginHomeloan()[pri:0, instance:practice.day4@457e2f02]" name="MobileloginHomeloan" class="practice.day4"/>
+        <method signature="day3.Mobilelogincarloan()[pri:0, instance:practice.day3@5e3a8624]" name="Mobilelogincarloan" class="practice.day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Car Loan" duration-ms="135" started-at="2020-07-28T07:56:00Z" finished-at="2020-07-28T07:56:00Z">
+      <class name="practice.day1">
+        <test-method status="PASS" signature="afsuite()[pri:0, instance:practice.day1@4cc0edeb]" name="afsuite" is-config="true" duration-ms="0" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afsuite -->
+      </class> <!-- practice.day1 -->
+      <class name="practice.day3">
+        <test-method status="PASS" signature="bfsuite()[pri:0, instance:practice.day3@5e3a8624]" name="bfsuite" is-config="true" duration-ms="30" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsuite -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:practice.day3@5e3a8624]" name="beforeevery" is-config="true" duration-ms="5" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="Mobilelogincarloan()[pri:0, instance:practice.day3@5e3a8624]" name="Mobilelogincarloan" duration-ms="30" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobilelogincarloan -->
+        <test-method status="PASS" signature="afterevery()[pri:0, instance:practice.day3@5e3a8624]" name="afterevery" is-config="true" duration-ms="1" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:practice.day3@5e3a8624]" name="beforeevery" is-config="true" duration-ms="1" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="MobilesignoutcarLoan()[pri:0, instance:practice.day3@5e3a8624]" name="MobilesignoutcarLoan" duration-ms="33" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+        <test-method status="PASS" signature="afterevery()[pri:0, instance:practice.day3@5e3a8624]" name="afterevery" is-config="true" duration-ms="1" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method status="SKIP" signature="weblogincarloan(java.lang.String)[pri:0, instance:practice.day3@5e3a8624]" name="weblogincarloan" duration-ms="0" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method weblogincarloan but has not been marked @Optional or defined
+in C:\Users\Admin\workspace\Workspace1\TestNG\testng1.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method weblogincarloan but has not been marked @Optional or defined
+in C:\Users\Admin\workspace\Workspace1\TestNG\testng1.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogincarloan -->
+      </class> <!-- practice.day3 -->
+    </test> <!-- Car Loan -->
+    <test name="Personal Loan" duration-ms="118" started-at="2020-07-28T07:56:00Z" finished-at="2020-07-28T07:56:00Z">
+      <class name="practice.day1">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:practice.day1@4cc0edeb]" name="Demo" duration-ms="25" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="lastexecution()[pri:0, instance:practice.day1@4cc0edeb]" name="lastexecution" is-config="true" duration-ms="0" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- practice.day1 -->
+      <class name="practice.day2">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:practice.day2@7823a2f9]" name="prerequisite" is-config="true" duration-ms="1" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="ploan()[pri:0, instance:practice.day2@7823a2f9]" name="ploan" duration-ms="5" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- practice.day2 -->
+      <class name="practice.day4">
+        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:practice.day4@457e2f02]" name="LoginAPIHomeLoan" duration-ms="2" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method status="PASS" signature="MobileloginHomeloan()[pri:0, instance:practice.day4@457e2f02]" name="MobileloginHomeloan" duration-ms="3" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginHomeloan -->
+        <test-method status="PASS" signature="webloginHomeloan()[pri:0, instance:practice.day4@457e2f02]" name="webloginHomeloan" duration-ms="2" started-at="2020-07-28T13:26:00Z" finished-at="2020-07-28T13:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginHomeloan -->
+      </class> <!-- practice.day4 -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Suite -->
+</testng-results>
